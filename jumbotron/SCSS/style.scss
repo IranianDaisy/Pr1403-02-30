@@ -1,0 +1,54 @@
+@import "bootstrap.min";
+@import "all";
+@import "initializer";
+
+
+body {
+  background-color: lightsteelblue;
+}
+
+
+
+header {
+  background-color:navy;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin-bottom: 10px;
+}
+
+
+
+header>ul>li {
+  display: inline;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+}
+
+header>ul>li>a{
+  text-decoration: none;
+  color: white;
+}
+
+header>ul>li>i>a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
